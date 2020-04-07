@@ -1,7 +1,10 @@
 - 学习记录
-  - java
+  - JAVA
     - [反射](java/反射.md)
+    - [泛型](java/泛型.md)
+    - [NIO](java/NIO.md)
+    - [设计模式](java/设计模式.md)
+  - 项目管理
+  	- [maven](项目管理/maven.md)
   - 中间件
-  
   - 大数据
-  
