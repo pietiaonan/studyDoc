@@ -1,4 +1,5 @@
-1. 最常用且简单的方式，饿汉式
+##  饿汉式
+最常用且简单的方式
 
 ```java
 public class Singleton{
@@ -10,9 +11,8 @@ public class Singleton{
 }
 
 ```
-
-2. 注重效率而且多线程安全情况下，懒汉式  懒加载
-   双重判断加volatile 
+## 懒汉式
+注重效率而且多线程安全情况下，懒汉式  懒加载 ，双重判断加volatile 
 
 ```java
 public class Singleton{
@@ -31,7 +31,8 @@ public class Singleton{
 }
 
 ```
-3. 静态内部类的方式，使用时加载，而且保证线程安全
+##  静态内部类
+使用时加载，而且保证线程安全
 ```java
 public class Singleton{
     private Singleton(){};
@@ -43,7 +44,8 @@ public class Singleton{
     }
 }
 ```
-4. effiective java 推荐，简单直接，且jvm保证线程安全， **而且enum无构造方法，保证无法通过反射方式获取新的实例，以上三种不能保证  ,java 通过编译器和 JVM 联手来防止enum 产生超过一个class：不能利用 new、clone()、de-serialization、以及 Reflection API 来产生enum 的 instance**
+## Enum
+effiective java 推荐，简单直接，且jvm保证线程安全， **而且enum无构造方法，保证无法通过反射方式获取新的实例，以上三种不能保证  ,java 通过编译器和 JVM 联手来防止enum 产生超过一个class：不能利用 new、clone()、de-serialization、以及 Reflection API 来产生enum 的 instance**
 
 
 
@@ -59,7 +61,7 @@ public enum  Singleton{
 }
 ```
 
-注意
+## 注意
 
 - **1.4及更早之前的版本 volatile加双重判断的方式会家锁失效，不安全**
 - **1.2及之前的版本，单例的对象会被jvm垃圾回收，造成可能单例产生的对象不是同一个**

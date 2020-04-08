@@ -5,10 +5,9 @@
 
 * **方法**
 
-  ![](../../img/pattern/uml2.png)
+![](../../img/pattern/uml2.png)
 
   
-
 
 
 * **内部类**
@@ -28,4 +27,6 @@
 | **接口隔离原则**(Interface Segregation Principle, ISP) | 使用多个专门的接口来取代一个统一的接口                       | ★★☆☆☆  |
 | **合成复用原则**(Composite Reuse Principle, CRP)       | 在系统中应该尽量多使用组合和聚合关联关系，尽量少使用甚至不使用继承关系 | ★★★★☆  |
 | **迪米特法则**(Law of Demeter, LoD)                    | 一个软件实体对其他实体的引用越少越好，或者说如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用，而是通过引入一个第三者发生间接交互 | ★★★☆☆  |
+
+[参考](https://www.cnblogs.com/WindSun/p/10223080.html)
 
