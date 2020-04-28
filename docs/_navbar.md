@@ -3,7 +3,7 @@
     - [泛型](java/泛型.md)
     - [NIO](java/NIO.md)
     - [多线程](java/多线程.md)
-
+    - [常见问题记录](java/issue.md)
   - 设计模式
     - [类之间的关系](pattern/Class.md)
     - [设计模式原则](pattern/Principle.md)
@@ -34,3 +34,4 @@
   	- [maven](项目管理/maven.md)
   - 中间件
   - 大数据
+  - Teacher Ma
