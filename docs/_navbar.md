@@ -35,3 +35,7 @@
   - 中间件
   - 大数据
   - Teacher Ma
+  - 其他
+    - [git](other/git.md)
+    - [markdown](other/markdown.md)
+    - [regex](other/regex.md)

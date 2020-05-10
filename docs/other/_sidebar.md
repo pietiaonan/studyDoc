@@ -1,0 +1,3 @@
+- [git](other/git.md)
+- [markdown](other/markdown.md)
+- [regex](other/regex.md)
