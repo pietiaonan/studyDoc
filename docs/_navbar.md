@@ -30,6 +30,9 @@
     - [解释器模式](pattern/Interpreter.md)
     - [策略模式](pattern/Strategy.md)
     - [中介者模式](pattern/Mediator.md)
+
+  - VUE
+      - [b站学习总结](VUE/bili.md)
   - 数据结构和算法
       - [基础](数据结构和算法/base.md)
   - 数据库
